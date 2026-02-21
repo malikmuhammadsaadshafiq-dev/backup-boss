@@ -1,0 +1,42 @@
+{
+  "name": "backup-boss",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.300.0",
+    "zod": "^3.22.0",
+    "jsonwebtoken": "latest",
+    "pg": "latest",
+    "@aws-sdk/client-s3": "latest",
+    "@aws-sdk/s3-request-presigner": "latest",
+    "ioredis": "latest",
+    "jose": "latest",
+    "@vercel/postgres": "latest",
+    "openai": "latest",
+    "resend": "latest",
+    "uuid": "latest",
+    "puppeteer-core": "latest",
+    "qrcode": "latest",
+    "@sparticuz/chromium": "latest",
+    "bcrypt": "latest",
+    "ical-generator": "latest",
+    "@aws-sdk/client-rekognition": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32"
+  }
+}
